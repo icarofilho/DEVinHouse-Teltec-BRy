@@ -1,0 +1,163 @@
+/* !RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* !HEADER & BODY */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #85D0DC;
+}
+header{
+    display: flex;
+    margin: 70px 0 30px 0;
+    align-items: center;
+}
+header img{
+    height: 50px;
+    margin-right: 10px;
+}
+h1{
+    font-family: 'Karantina', cursive;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+}
+/*! CORPO DO CONTEÚDO */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*! FORMULÁRIO */
+form{
+    display: flex;
+    align-items: center;
+}
+input[type='text']{
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 500px;
+    border-radius: 10px 0 0 10px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+form button{
+    margin-left: 0.5px;
+    font-size: 1.1rem;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+form button:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background: #82CCB1;
+    cursor: pointer;
+}
+form button:active{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+/*! MSG ERRO */
+.alertArea{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alertMsg {
+    display: none;
+}
+/* !STATUS AREA */
+.status{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid #52BBCC;
+    border-radius: 5px;
+
+}
+.statusTittle,.statusCount,.statusChecked{
+    background: #76B6C3;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.statusTittle{
+    border-radius: 5px 0 0 5px;
+}
+.statusCount{
+    border-radius: 0 5px 5px 0;
+    background:#81CBB0;
+}
+.statusChecked{
+    border-radius: 0 5px 5px 0;
+    background: #99F1D1;
+    display: none;
+
+}
+/*! LISTAGEM */
+
+.lista{
+    background: #82CCB1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #52BBCC;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 15px 0;
+    display: none;
+}
+div.item{
+    margin: 5px 0;
+    padding: 5px;
+    display: flex;
+    border-bottom: 1px solid rgba(97, 97, 97, 0.288);
+    justify-content: space-between;
+    align-items: center;
+}
+div.item:hover{
+    font-weight: bold;
+}
+input[type=checkbox]{
+    cursor: pointer;
+    margin-right: 20px;
+}
+/* ADICIONANDO LINETHROUGHT */
+
+input[type=checkbox]:checked + label.lineThrough{
+    text-decoration: line-through;
+    color: #6A6A6A;
+}
+button.delete {
+    margin-left: 20px;
+    text-align: center;
+    padding: 0 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button.delete:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background: crimson;
+    color: wheat;
+    cursor: pointer;
+}
+button.delete:active{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+
+/* !ESTILO STATUS BAR */
+.totItem {
+    display: flex;
+    justify-content: center;
+}
+div.statusTxt{
+    background: red;
+    height: 100%;
+}
+
+

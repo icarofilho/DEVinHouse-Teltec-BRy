@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="style/global.css">
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon">
+        <!-- Font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Roboto&display=swap" rel="stylesheet">
+        <title>Minha Lista</title>
+    </head>
+    <body>
+        <header>
+            <img src="imgs/icon.png" alt="imagem de lista de afazeres">
+            <h1>Minha Lista</h1>
+        </header>
+        <main>
+            <!-- FORMULÁRIO -->
+            <form id="formToDo">
+                <input type="text" id="formInput" placeholder="Adicione um item a lista">
+                <button type="submit" id="formBtn">Adicionar</button>
+            </form>
+            <!-- CAMPO DE MENSAGEM -->
+            <section class="alertArea">
+                <div class="alertMsg">
+                </div>
+            </section>
+            <section class="status">
+            </section>
+            <!-- LISTA -->
+            <section>
+                <div class="lista"></div>
+            </section>
+            
+        </main>
+        <!-- JS -->
+        <script src="script/index.js"></script>
+    </body>
+</html>
