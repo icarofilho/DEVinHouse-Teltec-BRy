@@ -28,6 +28,18 @@
             Repositório destinado a resoluções dos projetos durante o progresso do curso DEVinHouse.        
         </p>
     </section>
+    <!-- STATUS DO REPOSITÓRIO -->
+    <section>
+        <h2>Status do repositório</h2>
+        <div>
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+            <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+        </div>
+        <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/icarofilho/DEVinHouse-Teltec-BRy">
+        <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/icarofilho/DEVinHouse-Teltec-BRy">
+        <img alt="GitHub" src="https://img.shields.io/github/license/icarofilho/DEVinHouse-Teltec-BRy">
+    </section>
     <!-- PROJETOS -->
     <section>
         <div>
@@ -42,7 +54,7 @@
                     <div align="center">
                         <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
                         <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
-                        <img src="https://img.shields.io/badge/JS-javascript-yellow?style=for-the-badge">
+                        <img src="https://img.shields.io/badge/-javascript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
                     </div>
                     <!-- ! OBJETIVO DO PROJETO -->
                     <details>
@@ -80,10 +92,18 @@
                         <img src="imgs/m1p1-to-do-list.jpg">
                     </details>
                     <!-- TODO LINK DO PROJETO -->
+                    <details>
+                        <summary><a href="https://github.com/icarofilho/DEVinHouse-Teltec-BRy/tree/main/modulo-1/to-do-list">[ LINK DO PROJETO ]</a></summary>
+                    </details>
                 </div>
             </details>
             <hr>
         </div>
     </section>
 </main>
+<footer>
+    <p>
+        Repositório Criado por: <a href="https://github.com/icarofilho">Ícaro Ferreira</a>
+    </p>
+</footer>
 
